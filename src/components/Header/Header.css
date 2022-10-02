@@ -1,0 +1,21 @@
+.header-links {
+  display: flex;
+  margin-top: 5px;
+  gap: 10px;
+  justify-content: center;
+}
+.header-links a {
+  text-decoration: none;
+  background-color: antiquewhite;
+  color: black;
+  padding: 8px 15px;
+  background-color: bisque;
+  border-radius: 10px;
+}
+.header-links a:hover {
+  background-color: rgb(230, 183, 122);
+}
+.header-links .active-link {
+  background-color: rgb(238, 145, 25);
+  color: aliceblue;
+}
